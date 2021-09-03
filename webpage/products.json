@@ -1,0 +1,36 @@
+{
+    "000001": {
+        "name": "Slave Bugatti",
+        "price": 200000,
+        "img": "BlackCar.jpg",
+        "about": "Ipsum ipsum culpa dolor ea velit occaecat. Deserunt ea velit exercitation quis dolor. Ut esse duis pariatur in ea aute ut eu tempor eu nostrud mollit. Deserunt nisi nostrud proident ipsum ut. <br>Ipsum ipsum culpa dolor ea velit occaecat. Deserunt ea velit exercitation quis dolor. Ut esse duis pariatur in ea aute ut eu tempor eu nostrud mollit. Deserunt nisi nostrud proident ipsum ut."
+    },
+
+    "000002": {
+        "name": "Nike Special Edition Car",
+        "price": 100000,
+        "img": "BrightYellowCar.jpeg",
+        "about": "Ipsum ipsum culpa dolor ea velit occaecat. Deserunt ea velit exercitation quis dolor. Ut esse duis pariatur in ea aute ut eu tempor eu nostrud mollit. Deserunt nisi nostrud proident ipsum ut. <br>Ipsum ipsum culpa dolor ea velit occaecat. Deserunt ea velit exercitation quis dolor. Ut esse duis pariatur in ea aute ut eu tempor eu nostrud mollit. Deserunt nisi nostrud proident ipsum ut."
+    },
+
+    "000003": {
+        "name": "Bugatti with Cyan Line",
+        "price": 20000,
+        "img": "DarkSilverCar.jpg",
+        "about": "Ipsum ipsum culpa dolor ea velit occaecat. Deserunt ea velit exercitation quis dolor. Ut esse duis pariatur in ea aute ut eu tempor eu nostrud mollit. Deserunt nisi nostrud proident ipsum ut. <br>Ipsum ipsum culpa dolor ea velit occaecat. Deserunt ea velit exercitation quis dolor. Ut esse duis pariatur in ea aute ut eu tempor eu nostrud mollit. Deserunt nisi nostrud proident ipsum ut."
+    },
+
+    "000004": {
+        "name": "Cambridge Blue Aston Martin",
+        "price": 400000,
+        "img": "DarkTealCar.jpg",
+        "about": "Ipsum ipsum culpa dolor ea velit occaecat. Deserunt ea velit exercitation quis dolor. Ut esse duis pariatur in ea aute ut eu tempor eu nostrud mollit. Deserunt nisi nostrud proident ipsum ut. <br>Ipsum ipsum culpa dolor ea velit occaecat. Deserunt ea velit exercitation quis dolor. Ut esse duis pariatur in ea aute ut eu tempor eu nostrud mollit. Deserunt nisi nostrud proident ipsum ut."
+    },
+
+    "000005": {
+        "name": "Light Silver",
+        "price": 250000,
+        "img": "LightSilverCar.jpg",
+        "about": "Ipsum ipsum culpa dolor ea velit occaecat. Deserunt ea velit exercitation quis dolor. Ut esse duis pariatur in ea aute ut eu tempor eu nostrud mollit. Deserunt nisi nostrud proident ipsum ut. <br>Ipsum ipsum culpa dolor ea velit occaecat. Deserunt ea velit exercitation quis dolor. Ut esse duis pariatur in ea aute ut eu tempor eu nostrud mollit. Deserunt nisi nostrud proident ipsum ut."
+    }
+}

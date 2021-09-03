@@ -1,0 +1,28 @@
+<div id="shop-content">
+    <div id="search-panel">
+        <h2>Filter:</h2>
+        <p>Price: <span class="fliter-setting">low -> high</span></p>
+        <p>Price: <span class="fliter-setting">high -> low</span></p>
+        <p>Price: <span class="fliter-setting">low -> high</span></p>
+        <p>Price: <span class="fliter-setting">high -> low</span></p>
+        <p>Price: <span class="fliter-setting">low -> high</span></p>
+        <p>Price: <span class="fliter-setting">high -> low</span></p>
+        <p>Price: <span class="fliter-setting">low -> high</span></p>
+        <p>Price: <span class="fliter-setting">high -> low</span></p>
+        <p>Price: <span class="fliter-setting">low -> high</span></p>
+        <p>Price: <span class="fliter-setting">high -> low</span></p>
+        <p>Price: <span class="fliter-setting">low -> high</span></p>
+        <p>Price: <span class="fliter-setting">high -> low</span></p>
+    </div>
+    <div id="gallery">
+        <div class="product" id="product-id" name="000000" onclick="product_page(this.name)">
+            <div class="product-img">
+                <img class="thumbnail" src="/images/image_not_found.jpg">
+            </div>
+            <div class="product-content">
+                <h2 class="shop-header">Failed To Load</h2>
+                <p class="shop-price">Price: <span>Error</span></p>
+            </div>
+        </div>
+    </div>
+</div>
