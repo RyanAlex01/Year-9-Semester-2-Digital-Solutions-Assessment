@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <title>R-y-an</title>
+        <script src="/webpage/main.js"></script>
+        <script src="/webpage/logo_animation.js"></script>
+        <script rel="pages" type="text/javascript" href="/webpage/pages.json"></script>
+        <link rel="stylesheet" type="text/css" href="/webpage/style.css">
+
+    </head>
+
+    <body>
+        
+        <div id="logo-div"></div>
+        
+        <div id="menu-bar">
+            <!-- oncontextmenu="window.alert('test');return false;" -->
+            <span class="nav-button" id="main-menu" onclick="page_load('home')">Home</span>
+            <span class="nav-button" id="shop-menu" onclick="page_load('shop')">Shop</span>
+            <span class="nav-button" id="about-menu" onclick="page_load('about')">About Us</span>
+            <span class="nav-button" id="support-menu" onclick="page_load('help')">Support</span>
+            <span class="nav-button" id="cart-button" onclick="page_load('cart')">
+                <span id="cart-button-cart" class=" fa fa-cart-plus"></span>
+                <a id="cart-button-text">Cart</a>
+                <a id="cart-button-items">0</a>
+            </span>
+        </div>
+        
+        <div id="main-content">
+            <div id="product-content">
+                <div id="item-top">
+                    <div id="top-left">
+                        <div id="img-column">
+                            <img class="column-img" name="00" onclick="img_change(this.name)" src="/images/image_not_found.jpg">
+                            <img class="column-img" name="00" onclick="img_change(this.name)" src="/images/image_not_found.jpg">
+                            <img class="column-img" name="00" onclick="img_change(this.name)" src="/images/image_not_found.jpg">
+                        </div>
+                        <img id="display-img" alt="" src="/images/image_not_found.jpg">
+                    </div>
+                    <div id="top-right">
+                        <div id="product-text">
+                            <h2 id="product-name">Name</h2>
+                            <div id="product-rating">
+                                <span class="fa fa-star star-checked"></span>
+                                <span class="fa fa-star star-checked"></span>
+                                <span class="fa fa-star star-checked"></span>
+                                <span class="fa fa-star star-checked"></span>
+                                <span class="fa fa-star star-checked"></span>
+                                <p id="review-count">1,802</p>
+                            </div>
+                            <hr>
+                            <p id="product-description">Voluptate enim consequat adipisicing dolor in veniam labore tempor velit ipsum. Commodo non nostrud eiusmod ad eu elit duis duis non. Officia veniam tempor ex dolore occaecat velit nostrud Lorem mollit occaecat in sunt fugiat elit. Voluptate magna Lorem proident nisi sit cupidatat anim in non sit qui esse Lorem. Exercitation qui elit nostrud id officia enim amet aute labore elit eiusmod do culpa consequat.<br><br>sit veniam irure adipisicing magna nisi id esse nisi minim nisi pariatur. Ea culpa occaecat sint deserunt velit veniam excepteur est excepteur duis. Minim irure ex sit ipsum magna eiusmod aliquip cupidatat mollit ipsum incididunt ex voluptate. Nulla id non magna laborum culpa commodo labore ullamco. Qui sit esse consequat tempor do ut commodo aute. Esse velit sunt nulla veniam voluptate est officia esse incididunt sint veniam. Dolore in aliquip veniam consectetur eiusmod ea anim occaecat eu aliquip do sunt cupidatat ut.</p>
+                        </div>
+                        <div id="product-saleInfo">
+                            <button id="product-sale-button" name="000000" onclick="addcart(this.name)">
+                                <p id="product-cart-text">Add to cart</p>
+                                <span class="fa fa-cart-plus"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="item-bottom">
+                    <div id="item-specs">
+                        <h2 id="specs-name"></h2>
+                    </div>
+                    <div id="related-items">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div id="section">
+                <h2>About Us</h2>
+                <p>Policies</p>
+                <p>Legal</p>
+                <p>TOS</p>
+                <p>Policies</p>
+                <p>Legal</p>
+                <p>TOS</p>
+            </div>
+            <div id="section">
+                <h2>Support</h2>
+                <p>Help</p>
+                <p>Forum</p>
+                <p>Email</p>
+                <p>Help</p>
+                <p>Forum</p>
+                <p>Email</p>
+            </div>
+        </div>
+    </body>
+</html>
