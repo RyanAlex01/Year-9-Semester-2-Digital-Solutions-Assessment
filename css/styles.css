@@ -7961,6 +7961,16 @@ textarea.form-control-lg {
   visibility: hidden !important;
 }
 
+.bottomfooter {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.biggeraboutus {
+  font-size: 2em;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
