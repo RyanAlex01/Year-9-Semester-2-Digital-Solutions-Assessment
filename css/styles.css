@@ -7961,11 +7961,16 @@ textarea.form-control-lg {
   visibility: hidden !important;
 }
 
+/*
 .bottomfooter {
   position: absolute;
-  bottom: 0px;
+  bottom: 10;
   width: 100%;
+  height: 60px;   /* Height of the footer */
+  /*
+  background:#6cf;
 }
+*/
 
 .biggeraboutus {
   font-size: 2em;
